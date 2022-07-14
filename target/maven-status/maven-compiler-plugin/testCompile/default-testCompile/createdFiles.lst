@@ -1,0 +1,9 @@
+com/workfinder/app/services/CountryServiceTest.class
+com/workfinder/app/services/FavoriteServiceTest.class
+com/workfinder/app/services/CompanyServiceTest.class
+com/workfinder/app/services/ApplymentServiceTest.class
+com/workfinder/app/services/AuthentificationServiceTest.class
+com/workfinder/app/services/EmployeeServiceTest.class
+com/workfinder/app/WorkFinderApplicationTests.class
+com/workfinder/app/services/ProfileServiceTest.class
+com/workfinder/app/services/OfferServiceTest.class
