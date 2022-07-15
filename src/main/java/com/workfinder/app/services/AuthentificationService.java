@@ -116,8 +116,8 @@ public class AuthentificationService {
             return Constants.USER_NOT_VERIFIED;
         if(!BCrypt.checkpw(password,user.get().getPassword()))
             return Constants.INVALID_PASSWORD;
-        Map<String,String> token = generateJWTToken(user.get());
-        return "Bearer "+token.get("token");
+        generateJWTToken(user.get());
+        return "Bearer "+user.get().getToken();
     }
 
     public String registerCompany(Company company)
