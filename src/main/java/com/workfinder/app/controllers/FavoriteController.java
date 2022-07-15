@@ -10,7 +10,7 @@ import org.springframework.web.client.HttpClientErrorException;
 
 
 @RestController
-@RequestMapping("api/v1/")
+@RequestMapping("/api/v1/")
 public class FavoriteController {
 
     @Autowired
