@@ -29,7 +29,8 @@ public class AuthFilter extends GenericFilter {
                 try {
                     Claims claims = Jwts.parser().setSigningKey(Constants.API_SECRET_KEY)
                             .parseClaimsJws(token).getBody();
-                    httpRequest.setAttribute("id_user",Integer.parseInt(claims.get("id_user").toString()));
+                    httpRequest.setAttribute("id_user",(claims.get("id_user").toString()));
+
                 }
                 catch(Exception e)
                 {
